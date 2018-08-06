@@ -13,6 +13,7 @@
     color: white;
     text-align: center;
     line-height: 40px;
+    margin-left: 80px;
 }
 
 
@@ -24,6 +25,7 @@
     background-size: 30%;
     background-position: center;
     position: relative;
+    margin-right: -20px;
 }
 
 .head-bottom{
