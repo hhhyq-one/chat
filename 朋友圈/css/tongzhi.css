@@ -1,0 +1,143 @@
+#tongzhi{
+    height: 20px;
+    width: 100%;
+    background: #313131;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.xinghao{
+    width: 125px;
+    display: flex;
+    margin-left: 2.5px;
+    align-items: center;
+
+
+}
+
+.xhg{
+    height: 12px;
+    width: 15px;
+    display: flex;
+    align-items: flex-end;
+}
+.xhg1{
+   height: 4.5px;
+    width: 5px;
+    border-radius: 1px;
+}
+
+.xhg2{
+    height: 7px;
+    width: 5px;
+    border-radius: 1px;
+}
+
+.xhg3{
+    height: 9.5px;
+    width: 5px;
+    border-radius: 1px;
+}
+
+.xhg4{
+    height:12px;
+    width: 5px;
+    border-radius: 1px;
+}
+
+.ok{
+    background: white;
+    margin-left: 2px;
+
+}
+.lose{
+    background: gray;
+    margin-left: 2px;
+}
+
+
+.yunyins{
+    width: 50px;
+    color: white;
+    font-size: 10px;
+
+    display: flex;
+
+}
+
+.xg{
+    width: 25px;
+    color: white;
+    font-size: 10px;
+
+    display: flex;
+
+}
+
+.time{
+    width: 50px;
+    color: white;
+    font-size: 10px;
+
+    display: flex;
+
+}
+
+.battry{
+    width: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.battrynum{
+    height: 11px;
+    width: 35px;
+    color: white;
+    font-size: 10px;
+    justify-content: center;
+    display: flex;
+
+}
+
+.battrybody{
+    height: 11px;
+    width: 25px;
+    border: 1px gray solid;
+    align-items: center;
+    display: flex;
+    border-radius: 15%;
+}
+
+.battryhead{
+
+    height: 4px;
+    width: 2.5px;
+    background-color: gray;
+    border-radius: 15%;
+}
+
+.battryin{
+    height:10px;
+    width: 9.25px;
+    background-color: chartreuse;
+    border-radius: 15%;
+}
+@keyframes move {
+    0%{
+         width: 1px;
+            background-color: crimson;
+    }
+    60%{
+        width: 21px;
+        background-color: orange;
+    }
+    100%{
+        width: 35px;
+        background-color: chartreuse;
+    }
+}
+.play{
+    animation: move 2s linear infinite;
+}

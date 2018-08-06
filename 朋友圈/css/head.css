@@ -1,0 +1,41 @@
+#head{
+    height: 30px;
+    background: #313131;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headtz{
+    height: 30px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+}
+
+
+.headbj{
+   height:30px;
+    width: 20px;
+    background-image: url(../img/返回.svg);
+    background-position: right;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+.headname{
+    height:30px;
+    color: white;
+    font-size: 14px;
+    padding-top: 8px;
+}
+
+.headps{
+    height: 30px;
+    width: 30px;
+    background-image: url(../img/照相.svg);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+
+}

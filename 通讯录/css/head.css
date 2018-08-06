@@ -1,0 +1,26 @@
+#head{
+    height: 40px;
+    width: 100%;
+    background-color: #313131;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.head-left{
+    flex: 1;
+    height: 40px;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+}
+
+
+.head-right{
+    height: 40px;
+    width: 40px;
+    background-image: url(../img/添加朋友.svg);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+}

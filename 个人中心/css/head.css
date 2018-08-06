@@ -1,0 +1,16 @@
+#head{
+    height: 40px;
+    width: 100%;
+    background-color: #313131;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.head-left{
+    flex: 1;
+    height: 40px;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+}

@@ -1,0 +1,223 @@
+#text{
+    flex: 1;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.sousuo{
+    width: 100%;
+    height: 40px;
+    background-color: grey;
+    display: flex;
+}
+
+.sousuodk{
+    width: 90%;
+    height: 80%;
+    background-color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    border-radius: 5px;
+}
+
+.sousuok{
+    height: 32px;
+    flex: 1;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.sousuo-center{
+    width: 60px;
+    height: 32px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.sousuohao{
+    height: 32px;
+    width: 20px;
+    background-image: url(../img/搜索.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.sousuozi{
+    flex: 1;
+    height: 32px;
+    color: #707070;
+    font-size: 14px;
+    text-align: center;
+    line-height: 32px;
+}
+
+.sousuoyuyin{
+   height: 32px;
+    width: 20px;
+    background-image: url(../img/语音.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.xiaoxi{
+    width: 96%;
+    height: 62px;
+    background-color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px grey solid;
+}
+
+
+.xiaoxitx{
+    height: 40px;
+    width: 40px;
+    background-image: url(../img/tx1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.xiaoxitx1{
+    height: 40px;
+    width: 40px;
+    background-image: url(../img/peiqi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.xiaoxitx2{
+    height: 40px;
+    width: 40px;
+    background-image: url(../img/zhi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.xiaoxitx3{
+    height: 40px;
+    width: 40px;
+    background-image: url(../img/doudou.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.xiaoxitx4{
+    height: 40px;
+    width: 40px;
+    background-image: url(../img/tx2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.xiaoxitx5{
+    height: 40px;
+    width: 40px;
+    background-image: url(../img/tx3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.xiaoxitx6{
+    height: 40px;
+    width: 40px;
+    background-image: url(../img/tx4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.xiaoxitx7{
+    height: 40px;
+    width: 40px;
+    background-image: url(../img/tx6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+
+
+.xiaoxinr{
+    height: 40px;
+    flex: 1;
+    display: flex;
+    flex-flow: column nowrap;
+    margin-left: 20px;
+}
+
+.textnr-top{
+    height: 20px;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.top-name{
+    height: 20px;
+    flex: 1;
+    color: black;
+    font-weight: 500;
+    line-height: 20px;
+    font-size: 80%;
+}
+
+.top-time{
+   height: 20px;
+    width: 40px;
+    color: #707070;
+    font-size: 50%;
+    line-height: 20px;
+}
+
+
+.textnr-bottom{
+    height: 20px;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+
+.bottom-text{
+    flex:1;
+    color: #707070;
+    font-size: 50%;
+    line-height: 20px;
+}
+
+.bottom-text1{
+    flex:1;
+    color: red;
+    font-size: 50%;
+    line-height: 20px;
+
+}
+
+
+.bottom-picture{
+    height: 20px;
+    width: 20px;
+    background-image: url(../img/静音.svg);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+}
+

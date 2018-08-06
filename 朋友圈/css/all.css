@@ -1,0 +1,22 @@
+::-webkit-scrollbar{
+    display: none;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 微软雅黑;
+
+}
+
+.boeder{
+
+    border: 1px red solid;
+}
+.x-ycenter{
+
+    justify-content: center;
+    align-items: center;
+
+}

@@ -1,0 +1,179 @@
+#text{
+    flex: 1;
+    width: 100%;
+    background-color: gainsboro;
+    overflow-y: scroll;
+}
+
+.topxiaoxi{
+    height: 100px;
+    width: 96%;
+    background-color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px grey solid;
+}
+
+.topxiaoxi-left{
+    width: 80px;
+    height: 100%;
+    background-image: url(../img/tx.jpg);
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.topxiaoxi-center{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+
+}
+
+.center-top{
+    width:50px;
+    height: 50%;
+    color: black;
+    font-size: 15px;
+    line-height: 80px;
+}
+
+.center-bottom{
+    width: 100%;
+    height: 50%;
+    color: black;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.topxiaoxi-right{
+    width: 60px;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.erweima{
+    height: 30px;
+    width: 30px;
+    background-image: url(../img/二维码.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.xiaoxibiaoji1{
+    height: 30px;
+    width: 30px;
+    background-image: url(../img/左箭头.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+
+}
+
+.xiaoxi{
+    width: 96%;
+    height: 41px;
+    background-color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px grey solid;
+}
+
+.xiaoxitx1{
+    height: 30px;
+    width: 30px;
+    background-image: url(../img/钱包.svg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.xiaoxitx2{
+    height: 30px;
+    width: 30px;
+    background-image: url(../img/收藏.svg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.xiaoxitx3{
+    height: 30px;
+    width: 30px;
+    background-image: url(../img/相册.svg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.xiaoxitx4{
+    height: 30px;
+    width: 30px;
+    background-image: url(../img/卡包.svg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.xiaoxitx5{
+    height: 30px;
+    width: 30px;
+    background-image: url(../img/表情.svg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.xiaoxitx6{
+    height: 30px;
+    width: 30px;
+    background-image: url(../img/设置.svg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.xiaoxinr{
+    height: 30px;
+    flex: 1;
+    color: black;
+    font-size:15px;
+    line-height: 30px;
+    padding-left: 10px ;
+}
+
+.xiaoxi1{
+    width: 100%;
+    height: 15px;
+    background-color:gainsboro;
+    color: #707070;
+}
+
+.xiaoxibiaoji{
+    height: 30px;
+    width: 30px;
+    background-image: url(../img/左箭头.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+

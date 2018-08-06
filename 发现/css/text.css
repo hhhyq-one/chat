@@ -1,0 +1,188 @@
+#text{
+    flex: 1;
+    width: 100%;
+    overflow-y: scroll;
+    background-color: gainsboro;
+}
+
+.xiaoxi{
+    width: 96%;
+    height:41px;
+    background-color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px grey solid;
+}
+
+.xiaoxitx{
+    height: 30px;
+    width: 30px;
+    background-image: url(../img/朋友圈.svg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.xiaoxitx1{
+    height: 30px;
+    width: 30px;
+    background-image: url(../img/扫一扫.svg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.xiaoxitx2{
+    height: 30px;
+    width: 30px;
+    background-image: url(../img/摇一摇.svg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.xiaoxitx3{
+    height: 30px;
+    width: 30px;
+    background-image: url(../img/看一看.svg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.xiaoxitx4{
+    height: 30px;
+    width: 30px;
+    background-image: url(../img/搜一搜.svg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.xiaoxitx5{
+    height: 30px;
+    width: 30px;
+    background-image: url(../img/附近的人.svg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.xiaoxitx6{
+    height: 30px;
+    width: 30px;
+    background-image: url(../img/购物.svg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.xiaoxitx7{
+    height: 30px;
+    width: 30px;
+    background-image: url(../img/游戏.svg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.xiaoxitx8{
+    height: 30px;
+    width: 30px;
+    background-image: url(../img/小程序.svg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.xiaoxinr{
+    height: 30px;
+    flex: 1;
+    color: black;
+    font-size:15px;
+    line-height: 30px;
+    padding-left: 10px ;
+}
+
+.xiaoxi1{
+    width: 100%;
+    height: 15px;
+    background-color:gainsboro;
+    color: #707070;
+}
+
+.xiaoxibiaoji{
+    height: 30px;
+    width: 30px;
+    background-image: url(../img/左箭头.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.youxinr{
+    height: 30px;
+    width: 160px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+
+
+.youxinr-right{
+    height: 30px;
+    width: 30px;
+    background-image: url(../img/QQ飞车.svg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.hongdain{
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background-color: red;
+    margin-top: -27.5px;
+    /*margin-left: -px;*/
+}
+
+.youxinr-right1{
+    height: 30px;
+    width: 30px;
+    background-image: url(../img/tx1.jpg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.youxinr1{
+    height: 30px;
+    width: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.hongdain1{
+    height: 4px;
+    width: 4px;
+    border-radius: 50%;
+    background-color: red;
+    margin-left: -8px;
+}

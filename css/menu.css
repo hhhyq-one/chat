@@ -1,0 +1,81 @@
+#menu{
+    height: 40px;
+    width: 100%;
+    background-color: #cccccc;
+    flex-flow: row nowrap;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-size{
+    height: 36px;
+    width: 40px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.menusize-top{
+    flex: 1;
+
+}
+
+
+.menu-weixin{
+    background-image: url(../img/会话.svg);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+}
+
+.menu-tongxun{
+    background-image: url(../img/通讯录.svg);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+}
+
+.menu-faxian{
+    background-image: url(../img/发现.svg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+}
+
+.menu-wo{
+    background-image: url(../img/我.svg);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+}
+
+.menu-name{
+    height: 10px;
+    color: #707070;
+    font-size: 8px;
+    text-align: center;
+    line-height: 10px;
+}
+
+.menu-weixin:visited{
+    background-image: url(../img/会话1.svg);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+
+}
+
+.menu-faxian:visited{
+    background-image: url(../img/发现1.svg);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+}
+
+
+.menu-faxian:hover{
+    background-image: url(../img/发现1.svg);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+
+}
