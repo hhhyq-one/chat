@@ -1,0 +1,49 @@
+#head{
+    height: 40px;
+    width: 100%;
+    background-color: #707070;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.head-left{
+    height: 30px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    line-height: 30px;
+}
+
+.head-center{
+    flex: 1;
+    height:30px;
+    color: white;
+    font-size: 14px;
+    padding-top: 8px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.head-right{
+    height:30px;
+    color: white;
+    font-size: 30px;
+    padding-top: 8px;
+    line-height: 5px;
+}
+
+.headbj{
+    height:30px;
+    width: 20px;
+    background-image: url(../img/返回.svg);
+    background-position: right;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+.headname{
+    height:30px;
+    color: white;
+    font-size: 14px;
+    padding-top: 8px;
+}

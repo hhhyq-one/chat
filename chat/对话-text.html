@@ -1,0 +1,58 @@
+<link rel="stylesheet" href="../对话/css/text.css">
+
+
+
+
+
+<div id="text1"></div>
+<div id="wride">
+    <div class="yuying"></div>
+    <input class="shuru" style="width: 200px">
+    <div class="fasong">发送</div>
+    <div class="emjoy"></div>
+    <div class="add"></div>
+</div>
+<script>
+    $(function() {
+
+        var key = "f1f0c23e4a2b47158936c9d124ea007c";
+        var url = "http://www.tuling123.com/openapi/api";   //openAPI
+
+        $('.fasong').click(function() {  //当点击时
+
+            var info = {
+                "key": key,
+                "info": $(".shuru").val()
+            }   //向图灵 发送 聊天数据     .val  =  value
+
+            //生成自己的聊天内容
+            var self = $("<div class='tell'>"+
+                " <div id='tx' class='tell'></div>"+
+                "<div id='ltb' class='tell'></div>"+
+                "<div id='ltk' class='tell'>"+$(".shuru").val()+"</div>"+
+                "</div>")
+
+            $("#text1").append(self)
+
+
+            $.ajax({
+                type: "POST",
+                url: url,
+                data: info,
+                dataType: "json",
+                success: function(result) {
+                    var robot = $("<div class='tell1'>" +
+                        "<div id='tx1' class='tell1'></div>" +
+                        "<div id='ltb1' class='tell1'></div>" +
+                        "<span id='ltk1' class='tell1'>"+result.text +"</span>" +
+                        "</div>")
+
+                    $("#text1").append(robot)
+
+                }
+            });
+
+        })
+
+    })
+</script>
